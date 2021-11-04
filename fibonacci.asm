@@ -4,33 +4,36 @@ extern _ExitProcess@4:near
 extern _WriteConsoleA@20:near
 
 .data
-test
+
 prev	dword	1
 curr	dword	1
 next	dword	0
-n		dword	?
-i		byte	3
+n		dword	8
+i		dword	3
 
 .code
 main PROC near
 _main:
-	mov		n, 5
 	mov		eax, n
+	cmp		eax, i
+	jz		_endloop
 
 	mov		ebx, prev
-	mov		ecx, curr
-	; mov		eax, next
+	mov		edx, curr
+	mov		ecx, next
 
-	mov		eax, next
-	add		eax, prev
-	mov		next, eax
-	mov		prev, ecx
-	mov		curr, eax
+	add		ecx, ebx
+	mov		eax, ecx
+
+	mov		next, ecx
+	mov		prev, edx
+	mov		curr, ecx
+
+	inc		i
+	jmp		_main
 	
-	jnz		_main
-
+_endloop:
 	push	0
 	call	_ExitProcess@4
-
 main ENDP
 END
