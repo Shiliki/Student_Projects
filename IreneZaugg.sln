@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exchange", "Exchange\Exchan
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Fibonacci", "Fibonacci\Fibonacci.vcxproj", "{7B6F8935-62E4-4505-9796-A2F0DD039023}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TempConversion", "TempConversion\TempConversion.vcxproj", "{99F8C5E8-96AA-4920-8381-9043C5679C44}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{7B6F8935-62E4-4505-9796-A2F0DD039023}.Release|x64.Build.0 = Release|x64
 		{7B6F8935-62E4-4505-9796-A2F0DD039023}.Release|x86.ActiveCfg = Release|Win32
 		{7B6F8935-62E4-4505-9796-A2F0DD039023}.Release|x86.Build.0 = Release|Win32
+		{99F8C5E8-96AA-4920-8381-9043C5679C44}.Debug|x64.ActiveCfg = Debug|x64
+		{99F8C5E8-96AA-4920-8381-9043C5679C44}.Debug|x64.Build.0 = Debug|x64
+		{99F8C5E8-96AA-4920-8381-9043C5679C44}.Debug|x86.ActiveCfg = Debug|Win32
+		{99F8C5E8-96AA-4920-8381-9043C5679C44}.Debug|x86.Build.0 = Debug|Win32
+		{99F8C5E8-96AA-4920-8381-9043C5679C44}.Release|x64.ActiveCfg = Release|x64
+		{99F8C5E8-96AA-4920-8381-9043C5679C44}.Release|x64.Build.0 = Release|x64
+		{99F8C5E8-96AA-4920-8381-9043C5679C44}.Release|x86.ActiveCfg = Release|Win32
+		{99F8C5E8-96AA-4920-8381-9043C5679C44}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
