@@ -3,7 +3,7 @@
 extern _ExitProcess@4:near
 
 .data
-	fahren		real8	1.0
+	fahren		real8	30.0
 	celsius		real8	?
 	r8_mult		real8	0.555555555555555555556
 	r8_sub		real8	32.0
